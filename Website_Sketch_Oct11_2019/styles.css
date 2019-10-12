@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "LOGO . . About Resume Portfolio" ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." ". . . . . ." "This-is\ for\ Social\ Media This-is\ for\ Social\ Media This-is\ for\ Social\ Media This-is\ for\ Social\ Media This-is\ for\ Social\ Media This-is\ for\ Social\ Media";
+}
+
+.LOGO { grid-area: LOGO; }
+
+.About { grid-area: About; }
+
+.Resume { grid-area: Resume; }
+
+.Portfolio { grid-area: Portfolio; }
+
+.This-is\ for\ Social\ Media { grid-area: This-is\ for\ Social\ Media; }
