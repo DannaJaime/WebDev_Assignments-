@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Danna's Website</title>
+  <meta name="keywords" content="html, background, img, css,typography, web fonts, embedded fonts, icons">
+
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+   <link rel="stylesheet" href="style.CSS">
+   <!-- THIS IS A LINK TO FONT AWESOME ICONS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+
+    <!-- logo centered -->
+    <div class="logo">
+      <img src="images/djlogo.png" alt="logo">
+    </div>
+
+<!--menu bar -->
+  <div class="container">
+    <header class="menu">
+      <div id="expand_menu" style="display:none;position:absolute;top:0;left:0;width:100%; background:white;height:100vh;z-index:2;">
+           <a href="">Home</a><br>
+           <a href="">About</a><br>
+           <a href="">Resume</a><br>
+           <a href="">Portfolio</a>
+           <div class="close" style="position:absolute; top:0;right:0;">
+           <button onclick="closePop();"><i class="far fa-window-close"></i></button>
+           </div>
+         </div>
+ </div>
+
+
+
+
+</body>
+
+</html>
