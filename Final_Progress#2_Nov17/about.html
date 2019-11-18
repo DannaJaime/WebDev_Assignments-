@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danna's Website</title>
+  <meta name="keywords" content="html, background, img, css,typography, web fonts, embedded fonts, icons">
+
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+  <link rel="stylesheet" href="css/about.css">
+  <!-- THIS IS A LINK TO FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- THIS IS A LINK TO GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <!-- logo centered -->
+    <div class="logo">
+      <img src="images/djlogo.png" alt="logo">
+      <span style="font-size:35px; cursor:pointer; float: right; margin-top: 20px; padding:10px;" onclick="openNav()">&#9776;</span>
+    </div>
+  </nav>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="about.html">About</a>
+    <a href="#">Portfolio</a>
+    <a href="#">Resume</a>
+  </div>
+
+<!-- IMAGE OF MYSELF DOWN -->
+
+<!-- ABOUT ME SECTION -->
+<h1>About Me</h1>
+<p>
+  Hi, My name is Danna! based in New York City. I am currently a student at New York University, pursuing a Bachelor of Science in Integrated Digital Media. I have gained various skills so far in my college career that have allowed me to progress and showcase many different areas of media. I love to learn and expand my knowledge on all sorts of things to get better and be inspired everyday to succeed.
+
+  For most of my life I have always done fine art and that is what really influenced me to continue to explore the media/technology world. Although, now all I do is work on a screen all day, my fine art experience helped me to stay motivated and create different types of art on various software such as Adobe, Autodesk Maya and bit of coding. I can express myself in different ways and keep exploring.
+
+</p>
+
+<script>
+  function openNav() {
+    document.getElementById("mySidenav").style.height = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.height = "0";
+  }
+</script>
+
+</body>
+
+</html>
