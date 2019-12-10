@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danna's Website</title>
+  <meta name="keywords" content="html, background, img, css,typography, web fonts, embedded fonts, icons">
+
+  <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+  <!-- THIS IS A LINK TO FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- THIS IS A LINK TO GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+    <!-- logo centered -->
+    <div class="logo">
+      <img src="images/djlogo.png" alt="logo">
+      <span style="font-size: 30px; cursor:pointer; float: right; margin-top: 20px; padding:10px;" onclick="openNav()">&#9776;</span>
+    </div>
+  </nav>
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="Resume.html">Resume</a>
+  </div>
+
+  <!-- big background image -->
+  <div class="content">
+    <!-- <img src="images/bg.jpg" alt="large image"> -->
+  </div>
+
+<footer>
+
+  <a href="mailto:dj1257@nyu" title="Email" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+  <a href="https://www.linkedin.com/in/danna-jaime-a829ab194/" title="LinkedIn" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+
+</footer>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.height = "100%";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.height = "0";
+    }
+  </script>
+</body>
+</html>
